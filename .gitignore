@@ -1,0 +1,27 @@
+node_modules/
+
+# Cypress generated files
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Environment variables
+.env*
+
+# Logs and reports
+*.log
+
+*.xml
+*.txt
+mochawesome-report/
+coverage/
+
+# VS Code settings (se aplicável)
+.vscode/
+
+# MacOS & Linux system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+.qodo
