@@ -4,7 +4,6 @@ module.exports = defineConfig({
   e2e: {
 
     env: {
-      webUrl: "https://alexandreti-aut.github.io/",
       apiUrl: "https://serverest.dev",
 
     },
