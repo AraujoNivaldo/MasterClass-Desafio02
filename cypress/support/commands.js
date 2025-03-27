@@ -1,3 +1,5 @@
+import { faker } from "@faker-js/faker/locale/pt_BR";
+
 Cypress.Commands.add('criarUsuario', (userData = null) => {
     const data = userData || {
         nome: faker.person.fullName(),
